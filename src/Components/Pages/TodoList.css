@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.outer-page {
+  background: linear-gradient(rgb(214, 210, 214), rgb(29, 2, 32));
+  padding: 40px;
+}
+
+.inner-page {
+  background-color: rgb(29, 2, 32);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(157, 227, 245, 0.9);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+.input-box {
+  width: 100%;
+  max-width: 400px;
+  resize: vertical;
+  margin-right: 10px;
+}
+
+.text {
+  flex: 1;
+  word-break: break-all;
+}
+
+.button-group {
+  flex: 0.7;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.list-group-item {
+  background-color: rgba(66, 65, 66, 0.692);
+  color: white;
+  position: relative;
+}
+
+.completed label {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.input-group-append {
+  gap: 10px;
+}
